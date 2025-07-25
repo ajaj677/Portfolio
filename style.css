@@ -23,7 +23,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     border-radius: 0.85em;
-    background-color: rgba(25, 26, 26, 0.4);
+    /* background-color: rgba(25, 26, 26, 0.4); */
 }
 /* header info */
 

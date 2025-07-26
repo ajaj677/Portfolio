@@ -4,6 +4,7 @@
     font-family: 'Inter';
     color: whitesmoke;
     font-weight: 400;
+    overflow: hidden;
     box-sizing: border-box;
 }
 
@@ -54,7 +55,7 @@ body {
 .header-intro {
     height: 9em;
     border-radius: 1em;
-    padding: 0.8em;
+    padding: 1em;
     background-color: #1d1d1d;
     margin-bottom: 1.2em;
 }
@@ -62,10 +63,15 @@ body {
 .header-interest {
     height: 4em;
     border-radius: 1em;
-    padding: 0.8em;
-    display: flex;
-    align-items: center;
     background-color: #1d1d1d
+}
+
+.header-interest p{
+    padding: 1.3em 0 0 1em;
+}
+
+.header-interest span {
+    margin-left: 1.5em;
 }
 
 /* main container*/
@@ -88,9 +94,8 @@ body {
     width: 290px;
     gap: 1.2em;
     height: 9em;
+    padding: 1em 0 0 1em;
     border-radius: 1em;
-    padding-left: 1em;
-    padding-top: 0.7em;
     background-color: #1d1d1d;
     margin-bottom: 1.2em;
 }
@@ -99,7 +104,6 @@ body {
 .main-etc {
     display: flex;
     flex-flow: column;
-    padding-left: 0.8em;
     align-items: stretch;
     justify-content: space-between;
     background-color: rgba(0,0,0,0);
@@ -111,7 +115,7 @@ body {
     margin-left: -1em;
     margin-top: -0.5em;
     border-radius: 1em;
-    padding-left: 1em;
+    padding-left: 1.5em;
     font-size: 13px;
     display: flex;
     align-items: center;
@@ -136,8 +140,26 @@ body {
     gap: 1.2em;
     height: 6em;
     border-radius: 1em;
-    padding: 0.7em, 0, 0, 1em ;
-    /* padding-left: 1em;
-    padding-top: 0.7em; */
+    padding-left: 1.5em ;
+    display: flex;
+    align-items: center;
     background-color: #1d1d1d;
 }
+
+.footer-portfolio span,a {
+    margin-left: 2em;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+    transition: color 0.3s ease-in-out ;
+}
+
+.footer a:hover {
+    color: rgb(255, 204, 0);
+}
+
+.footer-contact span{
+    padding-left: 0.5em;
+
+}
+

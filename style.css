@@ -1,9 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Consolas';
+    font-family: 'Inter';
     color: whitesmoke;
-    font-weight: 550;
+    font-weight: 400;
     box-sizing: border-box;
 }
 
@@ -24,6 +24,7 @@ body {
     border-radius: 0.85em;
     /* background-color: rgba(25, 26, 26, 0.4); */
 }
+
 /* header info */
 
 .header {
@@ -53,8 +54,7 @@ body {
 .header-intro {
     height: 9em;
     border-radius: 1em;
-    padding-left: 1em;
-    padding-top: 0.7em;
+    padding: 0.8em;
     background-color: #1d1d1d;
     margin-bottom: 1.2em;
 }
@@ -62,7 +62,7 @@ body {
 .header-interest {
     height: 4em;
     border-radius: 1em;
-    padding-left: 1em;
+    padding: 0.8em;
     display: flex;
     align-items: center;
     background-color: #1d1d1d
@@ -99,16 +99,22 @@ body {
 .main-etc {
     display: flex;
     flex-flow: column;
+    padding-left: 0.8em;
     align-items: stretch;
+    justify-content: space-between;
     background-color: rgba(0,0,0,0);
 }
 
-.main-etc div {
+.subBox {
+    margin :0%;
+    height: 10em;
+    margin-left: -1em;
+    margin-top: -0.5em;
     border-radius: 1em;
     padding-left: 1em;
-
+    font-size: 13px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: #1d1d1d;
 }
 
@@ -116,7 +122,22 @@ body {
 /* footer */
 
 .footer {
+    margin-top: 0.5em;
     height: 200px;
     width: 600px;
-    background-color: blue;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: column;
+    gap: 1.2em;
+}
+
+.footer div {
+    width: 600px;
+    gap: 1.2em;
+    height: 6em;
+    border-radius: 1em;
+    padding: 0.7em, 0, 0, 1em ;
+    /* padding-left: 1em;
+    padding-top: 0.7em; */
+    background-color: #1d1d1d;
 }

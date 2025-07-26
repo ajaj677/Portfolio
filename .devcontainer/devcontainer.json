@@ -1,0 +1,14 @@
+{
+  "name": "My Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ritwickdey.liveserver"
+      ]
+    }
+  },
+  "features": {},
+  "postCreateCommand": "echo 'Dev container ready!'"
+}

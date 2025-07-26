@@ -39,7 +39,7 @@ body {
 .header-photo {
     height: 14em;
     width: 13em;
-    background-image: url("resources/profile_pic.jpg");
+    background-image: url("resources/profile.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 1em;
